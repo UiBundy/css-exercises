@@ -1,3 +1,5 @@
+<!--COMPLETE-->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -6,9 +8,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Methods for Adding CSS</title>
   </head>
+  <head> 
+    <link rel="stylesheet" href="style.css">
+  </head>
   <body>
     <div>Style me via the external method!</div>
     <p>I would like to be styled with the internal method, please.</p>
-    <button>Inline Method</button>
+      <style>
+        p {
+          background-color: green;
+          color: white;
+          font-size: 18px;
+        }
+      </style>
+    <button style="background-color: orange; font-size: 18px;">Inline Method</button>
+    
   </body>
 </html>
