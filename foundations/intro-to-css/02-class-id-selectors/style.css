@@ -1,0 +1,53 @@
+/* I shoulve made all the odd numbers one single class and used the 'adjust-font-class' in the html file to cut down on the code and change the font size with one single line 
+
+.odd {
+  background-color: rgb(255, 167, 167);
+  font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.adjust-font-size {
+  font-size: 24px;
+}
+
+#two {
+  color: #0000ff;
+  font-size: 36px;
+}
+
+/*
+    In the id selector 'four' below, we could have also
+    added a rule to set the font size to 24px.
+
+    However, since the elements 'Number 3' and 'Number 4'
+    in the HTML file share the same font size, we reused
+    the 'adjust-font-size' class above to help reduce
+    duplicate code.
+*/
+
+
+
+
+p 
+{
+    background-color: #ffc0cb;
+    font-family: Verdana, "DejaVu Sans", Tahoma, sans-serif, ;
+}
+
+#num2 
+{
+    color: #0000ff;
+    font-size: 36px;
+
+}
+
+.num3 
+{
+    font-size: 24px;
+}
+
+.num4
+{
+    background-color: #90ee90;
+    font-size: 24px;
+    font-weight: bold;
+}
